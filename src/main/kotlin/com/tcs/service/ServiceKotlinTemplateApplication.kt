@@ -13,10 +13,10 @@ fun main(args: Array<String>) {
 
     println("this is how dapr works")
 
-    val response1 : Response = khttp.get("http://localhost:3500/v1.0/secrets/azurekeyvault/deliverymomentdbapi")
+    val response1 : Response = khttp.get("http://localhost:3500/v1.0/secrets/azurekeyvault/deliverymomentdbapi?metadata.namespace=edppublic-deliverymomentcrud-dev")
     val obj1 : JSONObject = response1.jsonObject
 
-    val response2 : Response = khttp.get("http://localhost:3500/v1.0/secrets/azurekeyvault/deliverycruddb")
+    val response2 : Response = khttp.get("http://localhost:3500/v1.0/secrets/azurekeyvault/deliverycruddb?metadata.namespace=edppublic-deliverymomentcrud-dev")
     val obj2 : JSONObject = response2.jsonObject
 
     var app:SpringApplication = SpringApplication(ServiceKotlinTemplateApplication::class.java)
