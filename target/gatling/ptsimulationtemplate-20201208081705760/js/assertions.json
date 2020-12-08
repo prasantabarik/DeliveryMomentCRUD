@@ -1,0 +1,10 @@
+{
+  "simulation": "com.tcs.service.perf.PTSimulationTemplate",
+  "simulationId": "ptsimulationtemplate",
+  "start": 1607415425760,
+  "description": "Template Description",
+  "scenarios": ["Template Check"],
+  "assertions": [
+
+  ]
+}

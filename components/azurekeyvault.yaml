@@ -13,4 +13,4 @@ spec:
     - name: spnClientId
       value: "bcbc812f-b752-46fb-8e95-7574198b8228"
     - name: spnCertificateFile
-      value : "C:/Users/pnl08g64/IdeaProjects/DeliveryMomentCRUD/components/delspncert.pfx"
+      value : "C:/Users/RaghavG2213/Downloads/DeliveryMomentCRUD/components/delspncert.pfx"

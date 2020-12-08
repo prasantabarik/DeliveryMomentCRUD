@@ -3,7 +3,7 @@ spring:
   application:
     name: service-kotlin-template
 server:
-  port: 8097
+  port:
   application:
     name: service-kotlin-template
 ##Properties for Prometheus End Points

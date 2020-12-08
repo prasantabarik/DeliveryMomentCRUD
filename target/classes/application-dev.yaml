@@ -8,7 +8,7 @@ spring:
       database: service-template-data
       uri: mongodb://localhost:27017/service-template-data
 server:
-  port: 8097
+  port:
   application:
     name: service-kotlin-template
 
